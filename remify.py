@@ -31,16 +31,16 @@ class RemifyTools:
 
     selector = selection.split(":")
 
-    attr = selector[0]
-    prop = selector[1]
+    prop = selector[0]
+    value = selector[1]
 
-    whitespace = attr.split(" ")
-    attribute = whitespace.pop()
+    whitespace = prop.split(" ")
+    propibute = whitespace.pop()
     indent = ""
 
     for space in whitespace:
       indent += " "
 
-    result = indent + "+rem(" + attribute + ", " + prop.strip() + ")"
+    result = indent + "+rem(" + propibute + ", " + value.strip() + ")"
 
     return result

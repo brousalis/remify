@@ -12,7 +12,7 @@ Very specific use case, assuming you are using `.sass` files and a mixin called 
 
 ## Installation
 
-### [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
+### [Sublime Package Control](http://packagecontrol.io)
 
 In the command Pallette choose **Package Control: Install Package** and select **Remify**
 
@@ -38,7 +38,7 @@ The "Packages" directory is located at:
 
 ## Usage
 
-* **Convert line** `shift + super + s` - replaces pixels with +rem(prop, value)  
+* **Convert line** `shift + super + s` - replaces pixels with `+rem(prop, value)`
 
 ### In Command Palette:
 
